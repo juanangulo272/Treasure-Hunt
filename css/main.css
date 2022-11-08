@@ -1,7 +1,5 @@
 body {
-  background-image: url('https://p4.wallpaperbetter.com/wallpaper/589/548/989/adventure-compass-map-rose-wallpaper-preview.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgba(29, 125, 138, 0.795);
   color: #fff;
   height: 100vh;
   display: flex;
