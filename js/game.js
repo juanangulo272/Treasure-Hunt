@@ -1,5 +1,15 @@
 const WIDTH = 400;
 const HEIGH = 400;
+const d = document
+
+d.addEventListener('DOMContentLoaded', () => {
+
+  const $audio = d.querySelector('.audio')
+
+  d.addEventListener('click',()=>{
+    $audio.play()
+  })
+})
 
 let target = {
   x: getRandomNumber(WIDTH),
@@ -17,8 +27,9 @@ $map.addEventListener('click', function (e) {
   let distanceHint = getDistanceHint(distance);
   $distance.innerHTML = `<h1>${distanceHint}</h1>`;
 
-  if (distance < 20 ) {
+  if (distance < 20) {
     alert(`Found the treasure in ${clicks} clicks!`);
     location.reload();
   }
-}); 
+});
+

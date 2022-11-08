@@ -1,24 +1,28 @@
 body {
-    background: #34495e;
-    color: #fff;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: monospace;
+  background-image: url('https://p4.wallpaperbetter.com/wallpaper/589/548/989/adventure-compass-map-rose-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: monospace;
 }
 
 img {
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-  }
-  
-  p {
-    display: block;
-  }
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
 
-  
+p {
+  display: block;
+}
+
+.audio {
+  visibility: hidden;
+}
