@@ -1,5 +1,5 @@
-const WIDTH = 2;
-const HEIGH = 2;
+const WIDTH = 400;
+const HEIGH = 400;
 const d = document
 
 d.addEventListener('DOMContentLoaded', () => {
