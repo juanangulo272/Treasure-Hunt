@@ -11,15 +11,15 @@ let getDistance = (e, target) => {
 let getDistanceHint = distance => {
     if (distance < 50) {
       return "Boiling hot!";
-    } else if (distance < 200) {
+    } else if (distance < 100) {
       return "Really Hot";
-    } else if (distance < 300) {
+    } else if (distance < 150) {
       return "Hot";
-    } else if (distance < 400) {
+    } else if (distance < 300) {
       return "Warm";
-    } else if (distance < 600) {
+    } else if (distance < 450) {
       return "Cold";
-    } else if (distance < 1000) {
+    } else if (distance < 800) {
       return "Really Cold";
     } else {
       return "Freezing!";
